@@ -21,16 +21,16 @@ const alts = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg'];
 
 /* Looping through images */
 
-for (let i = 0; i < images.length; i++) {
-    // let alt = img.alt.replace('xxx', images[i]);
-    // let src = img.src.replace('xxx', `images/${images[i]}`);
-    // img.src = src;
-    // img.alt = alt;
-    
+for (let i = 0; i < images.length; i++) {        
     const newImage = document.createElement('img');
     newImage.setAttribute('src', `images/${images[i]}`);
     newImage.setAttribute('alt', alts[i]);
     thumbBar.appendChild(newImage);
+
+    // let alt = img.alt.replace('xxx', images[i]);
+    // let src = img.src.replace('xxx', `images/${images[i]}`);
+    // img.src = src;
+    // img.alt = alt;
 
     thumbBar.addEventListener('click', (e) =>{
         displayedImage.src = e.target.src;

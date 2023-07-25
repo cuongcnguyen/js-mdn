@@ -27,7 +27,7 @@ function onYouTubeApiLoad() {
   // 8. Click the "Public data" radio button
   // 9. Click the "What credentials do I need?" button
   // 10. Copy your API key and paste it in below
-  gapi.client.setApiKey('AIzaSyAvRqmh_6oFiBYJYK1S3YWBtA-G460_pts');
+  gapi.client.setApiKey('API KEY HERE');
 
   // Attach an event listener to the form so that a search is carried out
   // when it is submitted — the search() function

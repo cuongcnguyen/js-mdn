@@ -31,4 +31,15 @@ addEventListener("message", (message) => {
     // including the number of primes we generated.
     postMessage(primes.length);
   }
+
+
+
+// //Test code
+// function factorial(a) {
+//   if (a===0) {
+//     return 1;
+//   } else {
+//     return n* factorial(n-1);
+//   }
+// }
   

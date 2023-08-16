@@ -1,2 +1,2 @@
 # js-mdn
-Learn JS from MDN
+Learn JS and React from MDN
